@@ -78,7 +78,7 @@ body {
 }
 
 
-@media (max-device-width: 780px) {
+/*@media (max-device-width: 780px) {
     .navigation a {
         font-size: 18px;
     }
@@ -94,9 +94,9 @@ body {
         padding: 0 15px 0 0;
         float: none;
     }
-}
+}*/
 
-@media (max-width: 650px) {
+@media (max-device-width: 650px) {
 
     .hamburger-button {
         display: block;
@@ -109,6 +109,10 @@ body {
     .hamburger-button img {
         width: 34px;
         height: 32px;
+    }
+
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .hidden-navigation {
@@ -239,11 +243,11 @@ footer {
 }
 
 footer .footer-main {
-  max-width: 800px;
-  margin: 0 auto;
-  display: flex;
-  padding: 30px 10px;
-  justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    padding: 30px 10px;
+    justify-content: space-between;
 }
 
 .footer-column .owl {

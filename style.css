@@ -26,7 +26,7 @@ body {
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-device-width: 1100px) {
     .main-content {
         width: 96%;
     }
@@ -78,7 +78,7 @@ body {
 }
 
 
-@media (max-width: 780px) {
+@media (max-device-width: 780px) {
     .navigation a {
         font-size: 18px;
     }

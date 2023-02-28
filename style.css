@@ -115,6 +115,10 @@ body {
   text-decoration: none;
 }
 
+.home .image-grid a {
+  margin: 0;
+}
+
 .image-grid a {
     display: block;
     margin: 10px;

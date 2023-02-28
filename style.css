@@ -57,7 +57,7 @@ body {
     text-align: center;
 }
 
-.navigation .active {border-bottom: thin solid #FFA897;font-weight: 600;display: none;}
+.navigation .active {opacity: 0.5;}
 
 .navigation a {
     color: #FFA897;
@@ -121,7 +121,7 @@ body {
 
 .image-grid a {
     display: block;
-    margin: 10px;
+    margin: 5px;
 }
 
 .image-grid img {
@@ -164,7 +164,7 @@ body {
 .person-bio {
   color: #FFFFFF;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 19px;
 }
 
 .about-section .image-container {
@@ -173,6 +173,11 @@ body {
   position:relative;
   padding-top: 61px;
   float: left;
+}
+
+.artist .about-section .image-container img {
+  position: relative;
+  width: 100%;
 }
 
 .about-section .image-container img {

@@ -45,8 +45,13 @@ body {
     height: auto;
 }
 
-.subpage .image-container {
-    width: 205px;
+.subpage .image-container.logo img {
+  width: 205px;
+}
+
+.subpage.current .image-container, .subpage.roster .image-container {
+  flex-grow: 1;
+  width: auto;
 }
 
 .navigation {

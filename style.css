@@ -90,7 +90,7 @@ body {
     font-weight: bold;
     font-size: 1.5rem;
     color: #FFA897;
-    text-transform: uppercase;
+    text-transform: lowercase;
     margin-right: 10px;
 }
 
@@ -98,7 +98,7 @@ body {
     flex-grow: 1;
     border: none;
     border-top: 2px solid #FFA897;
-    margin: 0;
+    margin: 10px 0 2px 0;
 }
 
 .image-grid {
@@ -123,7 +123,8 @@ body {
 }
 
 .home .image-grid a {
-    margin: 0;
+    margin: 5px;
+    background: transparent;
 }
 
 .image-grid a {
@@ -212,8 +213,7 @@ body {
 
 
 
-@media screen and (max-width: 650px),
-screen and (max-device-width: 650px) {
+@media screen and (max-width: 650px), screen and (max-device-width: 650px) {
 
     .hamburger-button {
         display: block;
@@ -258,9 +258,10 @@ screen and (max-device-width: 650px) {
     .hidden-navigation a {
         display: block;
         color: #004749;
-        font-size: 1.5rem;
+        font-size: 2.75rem;
         padding: 20px;
         text-decoration: none;
+        text-transform: lowercase;
     }
 
     .close-button {
@@ -344,6 +345,10 @@ screen and (max-device-width: 650px) {
     .about-section .image-container {
         margin: 0 0 50px;
         padding: 0;
+    }
+
+    .summary {
+      font-size: 2.5rem;
     }
 }
 
@@ -446,4 +451,20 @@ footer .footer-main {
     color: #FFFFFF;
     font-size: .875rem;
     margin: 10px 0;
+}
+
+footer p.ig-footer a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+footer p.ig-footer a img {
+    width: 14px;
+    height: auto;
+    margin: 3px 3px 0 0;
+}
+
+footer p.ig-footer a span {
+    align-self: flex-start;
 }

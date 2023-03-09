@@ -45,6 +45,14 @@ body {
     height: auto;
 }
 
+.artist-container h3 {
+    color: #FFA897;
+    text-transform: lowercase;
+    font-size: 2rem;
+    margin: 5px auto;
+    text-align: center;
+}
+
 .subpage .image-container.logo img {
   width: 205px;
 }
@@ -108,7 +116,7 @@ body {
     clear: both;
 }
 
-.image-grid div {
+.image-grid .image-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -383,6 +391,7 @@ body {
 
 footer {
     background-color: #FFA897;
+    text-transform: lowercase;
 }
 
 footer .footer-main {

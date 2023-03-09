@@ -47,10 +47,10 @@ body {
 
 .artist-container h3 {
     color: #FFA897;
-    text-transform: lowercase;
     font-size: 2rem;
     margin: 5px auto;
     text-align: center;
+    font-weight: 500;
 }
 
 .subpage .image-container.logo img {
@@ -122,12 +122,19 @@ body {
     align-items: center;
 }
 
-.image-title {
+.image-title, .artist-name {
     margin-top: 0px !important;
     font-size: 1rem;
     text-align: center;
     color: #ffa897;
     text-decoration: none;
+}
+
+.artist-name span {
+    display: block;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: -10px 0 0 0;
 }
 
 .home .image-grid a {

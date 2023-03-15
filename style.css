@@ -226,6 +226,60 @@ body {
     margin-right: 20px;
 }
 
+/* Add this to your existing style.css file */
+.releases-list {
+    width: 100%;
+    padding: 2rem 0 0;
+    color: #fff;
+}
+
+.releases-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.releases-list th,
+.releases-list td {
+    padding: 0.5rem 1rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+.releases-list a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: top;
+}
+
+.releases-list a:hover {
+    text-decoration: underline;
+}
+
+.album-art {
+    max-width: 101px;
+    max-height: 150px;
+    margin-right: 1rem;
+}
+
+.releases-list tr {
+    padding: 0 0 10px 0;
+}
+
+.releases-list th {
+    border-bottom: none;
+    padding-bottom: 20px;
+}
+
+.releases-list th:first-child {
+    margin: 0 0 0 118px;
+    display: block;
+}
+
+.releases-list td {
+    border-bottom: none;
+    font-size: 2rem;
+}
 
 
 @media screen and (max-width: 650px), screen and (max-device-width: 650px) {

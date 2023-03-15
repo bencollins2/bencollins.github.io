@@ -419,6 +419,10 @@ body {
     .summary {
       font-size: 2.5rem;
     }
+
+    .releases-list td {
+        font-size: 1.25rem;
+    }
 }
 
 .instagram-link {

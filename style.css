@@ -423,6 +423,23 @@ body {
     .releases-list td {
         font-size: 1.25rem;
     }
+    .testimonials {
+        flex-direction: column;
+    }
+
+    .testimonial-column {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+        margin-top: -36px;
+        padding-top: 0px !important;
+    }
+
+    .testimonial-column:last-child {
+        margin-bottom: 0;
+    }
+    .testimonial-column:first-child {
+        margin-top: auto !important;
+    }
 }
 
 .instagram-link {
@@ -542,3 +559,63 @@ footer p.ig-footer a img {
 footer p.ig-footer a span {
     align-self: flex-start;
 }
+
+.work-with-us {
+    color: #FFFFFF;
+    line-height: 1.5;
+    font-size: 1.1875rem;
+    margin-bottom: 40px;
+}
+
+.work-with-us h2 {
+    color: #FFA897;
+    font-size: 1.75rem;
+    margin: 30px 0 10px;
+}
+
+.work-with-us h3 {
+    color: #FFA897;
+    font-size: 1.5rem;
+    margin: 20px 0 10px;
+}
+
+.work-with-us ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.work-with-us li {
+    margin-bottom: 5px;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.testimonial-column {
+    flex-basis: 32%;
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.testimonial-column p {
+    margin-bottom: 20px;
+}
+
+.testimonial-column p:last-child {
+    margin-bottom: 0;
+}
+
+.testimonial-column strong {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* @media screen and (max-width: 650px), screen and (max-device-width: 650px) {
+    
+} */
